@@ -4,10 +4,10 @@ class StoreAdminController < ApplicationController
   end
    def admin
   end
-   def orders
+  def orders
     render :layout => "order_administration"
   end
-   def invoice
+  def invoice
     render :layout => false
   end
 end
